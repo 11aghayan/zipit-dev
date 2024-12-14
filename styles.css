@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1rem;
+}
+
+.lang-container {
+  width: fit-content;
+  margin-left: auto;
+  border-radius: 5px;
+  padding: 0 3px;
+  background-color: #ccc;
+  box-shadow: 0 0 2px #00000030;
+}
+
+a {
+  padding: 0.1rem;
+}
+
+a img {
+  object-fit: cover;
+  margin-top: 3px;
+}
+
+.img-container {
+  margin-top: 1rem;
+  width: 90%;
+  max-width: 350px;
+  margin-inline: auto;
+}
+
+.img-container img {
+  width: 100%;
+  aspect-ratio: 1.1;
+  object-fit: cover;
+}
+
+.icon-container {
+  margin-top: 1rem;
+  width: fit-content;
+  margin-inline: auto;
+}
+
+p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+p span {
+  font-weight: 700;
+  font-size: 2rem;
+}
